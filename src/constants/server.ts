@@ -1,7 +1,6 @@
 import "server-only";
 
 import type { AppleMediaConfig } from "@root/types/common";
-import { env } from "@root/utils/common/env.mjs";
 
 export const appleMediaConfig: AppleMediaConfig = [
 	{ url: "iPhone_14_Pro_Max_landscape" },
@@ -142,11 +141,3 @@ export const appleMediaConfig: AppleMediaConfig = [
 		media: { width: 744, height: 1133, ratio: 2, orientation: "portrait" },
 	},
 ];
-
-export const defaultGithubHeader: Parameters<typeof fetch>[1] = {
-	headers: {
-		Authorization: `Bearer ${env.GITHUB_TOKEN}`,
-		"X-GitHub-Api-Version": "2022-11-28",
-	},
-	next: { revalidate: 3e10 },
-};
