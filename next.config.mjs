@@ -9,7 +9,7 @@
 const config = {
 	i18n: { locales: ['en'], defaultLocale: 'en' },
 	images: { remotePatterns: [{ protocol: 'https', hostname: 'avatars.githubusercontent.com', port: '' }] },
-	experimental: { typedRoutes: true, mdxRs: true },
+	experimental: { typedRoutes: true },
 };
 
 export default config;
