@@ -1,0 +1,121 @@
+{
+	"cSpell.diagnosticLevel": "Hint",
+	"cSpell.ignorePaths": ["**/node_modules/**", "**/.vscode/extensions.json", ".env", "**/dist/**"],
+	"cSpell.words": [
+		"daisyui",
+		"escha",
+		"gsap",
+		"headlessui",
+		"heroicons",
+		"homescreen",
+		"ilike",
+		"meruru",
+		"neondatabase",
+		"nextjs",
+		"notranslate",
+		"pnpx",
+		"ratelimit",
+		"ryza",
+		"Senbonzakura",
+		"shallie",
+		"sslmode",
+		"SUPABASE",
+		"synthwave",
+		"tabler-icons-react",
+		"tailwindcss",
+		"tanstack",
+		"trpc",
+		"tsbuildinfo",
+		"tsconfigs",
+		"UPSTASH",
+		"vsicons",
+		"webp"
+	],
+	"css.customData": [".vscode/tailwind.json"],
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true,
+		"source.organizeImports": true
+	},
+	"editor.formatOnSave": true,
+	"editor.formatOnSaveMode": "file",
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"editor.rulers": [120],
+	"eslint.codeActionsOnSave.mode": "all",
+	"eslint.format.enable": true,
+	"eslint.lintTask.enable": true,
+	"files.associations": {
+		"**/*.css": "tailwindcss",
+		"*.eslintrc": "json",
+		"*.json": "json",
+		"*.prettierrc": "json",
+		"*.webmanifest": "json"
+	},
+	"npm.packageManager": "pnpm",
+	"tailwindCSS.classAttributes": [
+		"class",
+		"className",
+		"enter",
+		"enterFrom",
+		"enterTo",
+		"leave",
+		"leaveFrom",
+		"leaveTo"
+	],
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+	"vsicons.associations.files": [
+		{
+			"extensions": ["settings.json", "setting.json", "extensions.json", "extension.json"],
+			"filename": true,
+			"format": "svg",
+			"icon": "vscode"
+		},
+		{
+			"extensions": ["manifests.json", "manifest.json"],
+			"filename": true,
+			"format": "svg",
+			"icon": "manifest"
+		},
+		{
+			"extensions": ["package.json"],
+			"filename": true,
+			"format": "svg",
+			"icon": "node"
+		},
+		{
+			"extensions": ["tsbuildinfo"],
+			"format": "svg",
+			"icon": "tsconfig_official",
+			"overrides": "tsbuildinfo"
+		},
+		{
+			"extensions": ["env.mjs"],
+			"filename": true,
+			"format": "svg",
+			"icon": "config",
+			"overrides": "mjs"
+		}
+	],
+	"vsicons.associations.folders": [
+		{
+			"extensions": ["splash_screens"],
+			"format": "svg",
+			"icon": "images",
+			"overrides": "splash_screens"
+		},
+		{
+			"extensions": ["backups", "backup"],
+			"format": "svg",
+			"icon": "temp",
+			"overrides": "backup"
+		},
+		{
+			"extensions": ["constants", "constant"],
+			"format": "svg",
+			"icon": "binary",
+			"overrides": "constant"
+		}
+	],
+	"vsicons.presets.tsOfficial": true
+}

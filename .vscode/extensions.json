@@ -1,0 +1,30 @@
+{
+	"recommendations": [
+		"formulahendry.auto-rename-tag",
+		"streetsidesoftware.code-spell-checker",
+		"editorconfig.editorconfig",
+		"dsznajder.es7-react-js-snippets",
+		"dbaeumer.vscode-eslint",
+		"donjayamanne.githistory",
+		"eamodio.gitlens",
+		"ecmel.vscode-html-css",
+		"k--kato.intellij-idea-keybindings",
+		"michelefenu.json2typescript",
+		"bierner.markdown-preview-github-styles",
+		"pkief.material-product-icons",
+		"ibm.output-colorizer",
+		"christian-kohler.path-intellisense",
+		"esbenp.prettier-vscode",
+		"chrmarti.regex",
+		"richie5um2.vscode-sort-json",
+		"bradlc.vscode-tailwindcss",
+		"meganrogge.template-string-converter",
+		"shardulm94.trailing-spaces",
+		"pflannery.vscode-versionlens",
+		"vscode-icons-team.vscode-icons",
+		"redhat.vscode-yaml",
+		"formulahendry.auto-close-tag",
+		"aaron-bond.better-comments",
+		"vunguyentuan.vscode-css-variables"
+	]
+}
